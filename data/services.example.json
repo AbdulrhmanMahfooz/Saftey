@@ -1,0 +1,45 @@
+[
+  {
+    "id": "seed-web-design",
+    "title": "Custom Web Design",
+    "description": "A modern, responsive website tailored to your brand — from landing pages to full multi-page sites, built to convert.",
+    "price": 499,
+    "duration": "2 weeks",
+    "features": [
+      "Discovery & branding review",
+      "Responsive design (mobile + desktop)",
+      "Up to 5 pages",
+      "Basic SEO setup",
+      "1 round of revisions"
+    ],
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "seed-branding",
+    "title": "Brand Identity Package",
+    "description": "Logo, color palette, typography, and a brand guidelines document to make your business instantly recognizable.",
+    "price": 299,
+    "duration": "1 week",
+    "features": [
+      "3 logo concepts",
+      "Color and font system",
+      "Brand guidelines PDF",
+      "Social media asset kit"
+    ],
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "seed-consulting",
+    "title": "1-on-1 Consulting Session",
+    "description": "60-minute strategy call to answer your questions, review your project, and give you a clear action plan.",
+    "price": 99,
+    "duration": "1 hour",
+    "features": [
+      "Pre-call questionnaire",
+      "60-minute video call",
+      "Written action plan",
+      "One week of follow-up email support"
+    ],
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  }
+]

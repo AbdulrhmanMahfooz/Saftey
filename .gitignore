@@ -1,0 +1,11 @@
+node_modules
+.next
+out
+.env
+.env.local
+.env.*.local
+*.log
+
+# Runtime data — contains customer PII in orders.json. Seed via *.example.json.
+data/*.json
+!data/*.example.json
