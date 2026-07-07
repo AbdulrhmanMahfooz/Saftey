@@ -28,7 +28,11 @@ COPY --from=builder --chown=nextjs:nodejs /app/data ./data
 
 USER nextjs
 EXPOSE 3000
-VOLUME ["/app/data"]
+
+# Persist DATA_DIR (/app/data by default) by mounting a volume at that path.
+# - Docker Compose: see docker-compose.yml (mounts ./data)
+# - Railway: attach a Volume in the dashboard with mount path /app/data
+# - Fly.io: `fly volumes create data --size 1` and mount at /app/data
 
 HEALTHCHECK --interval=30s --timeout=5s --start-period=15s --retries=3 \
   CMD wget -qO- http://localhost:3000/api/health || exit 1
